@@ -1,0 +1,9 @@
+---
+
+netname: pivpn
+physical_ip: "{{ ansible_default_ipv4.address }}"
+
+vpn_interface: tinc0
+
+vpn_netmask: 255.255.255.0
+vpn_subnet_cidr_netmask: 32
